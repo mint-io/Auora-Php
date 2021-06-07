@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Roboto,'sans-serif';
+  outline: none;
+}
+
+div.signup-wrap-container {
+  background-color: lightgray;
+  padding: 0em;
+  margin-top: 0em;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p.signup-para {
+  text-align: center;
+  color: #1b1b1b;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+div.signup-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  margin: 0rem;
+}
+
+input.signup-bar {
+  padding: 17px;
+  width: 40%;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: white;
+  outline: none;
+  border: 1px solid white;
+}
+
+input.signup-bar::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+input.signup-bar:-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+input.signup-bar::-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+input.signup-bar::placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+button.signup {
+  background-color: #03b5bb;
+  color: white;
+  padding: 17px;
+  font-size: 1.2rem;
+  margin: 15px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  outline: none;
+  border: 0px solid white;
+  cursor: pointer;
+}
+
+button.signup:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1rem;
+  }
+  button.signup {
+    padding: 5px;
+    margin: 5px;
+  }
+     div.signup-wrap-container{
+        padding: 0.5rem 2rem; 
+     }
+     
+  div.signup-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  input.signup-bar {
+    padding: 5px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=sign-up.css.map */

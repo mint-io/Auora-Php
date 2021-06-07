@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Roboto,'sans-serif';
+  border: 0px solid;
+  outline: none;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  border: px solid red;
+}
+
+p.best-selling-para {
+  text-align: center;
+  padding: 1em 0em 5em 0em;
+}
+
+div.best-seller-part-top-one-container-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-one-1,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-one-2,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-one-3,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-two-4,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-two-2,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-two-3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 280px;
+  margin: 0.5rem;
+  background-color: #e0e0e0;
+  border: px solid red;
+}
+
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-one-4,
+div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-two-1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 380px;
+  -webkit-box-shadow: #7a7a7a;
+          box-shadow: #7a7a7a;
+}
+
+section.top-col-best-seller-part-one-4 {
+  background-color: #ff844b;
+}
+
+section.top-col-best-seller-part-two-1 {
+  background-color: #eafa08;
+  color: white;
+}
+
+p.best-seller {
+  color: white;
+  font-weight: bolder;
+  margin: 2em 0em 0em 0em;
+  font-size: 3.25rem;
+  text-align: center;
+}
+
+button.btn-best-seller {
+  display: block;
+  margin: 0 auto;
+  padding: 0.65rem;
+  text-align: center;
+  font-size: 1rem;
+  background: #1ee7d7;
+  font-weight: bolder;
+}
+
+button.btn-best-seller:hover {
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  color: #fff;
+  background: black;
+}
+
+section.top-col-best-seller-part-one-4 {
+  background-image: url("makeup_items-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-one-2 {
+  background-image: url("BNRINGBOX_HERO_C_100617-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-one-3 {
+  background-image: url("women-tassel-short-wallets-girls-3-folded-hasp-purse-card-holder-coin-bags-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-one-1 {
+  background-image: url("98004c651555825d-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-two-2 {
+  background-image: url("JBL_FLIP4_ACC_BLACK_6957_FS_x2-1605x1605px.png");
+}
+
+section.top-col-best-seller-part-two-4 {
+  background-image: url("lifest2-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-two-1 {
+  background-image: url("dualshock-4-listing-thumb-01-ps4-en-12oct20-removebg-preview.png");
+}
+
+section.top-col-best-seller-part-two-3 {
+  background-image: url("1-removebg-preview.png");
+}
+
+@media only screen and (max-width: 800px) {
+  div.best-seller-part-top-one-container-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-one-4,
+  div.best-seller-part-top-one-container-wrap section.top-col-best-seller-part-two-1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 380px;
+    -webkit-box-shadow: #7a7a7a;
+            box-shadow: #7a7a7a;
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=Best-seller-top.css.map */

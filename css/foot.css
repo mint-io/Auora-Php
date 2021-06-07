@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none !important;
+  font-family: Roboto,'sans-serif';
+  border: px solid red;
+}
+
+nav.footer-nav a,
+ul li {
+  color: #030303;
+  list-style: none;
+}
+
+h6 {
+  margin: 0px;
+  color: Red;
+}
+
+section,
+footer {
+  border: px solid red;
+}
+
+/***FOOTER SCSS**/
+footer div.foot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5rem 10rem;
+  background-color: white;
+}
+
+footer section.foot-box1 {
+  max-width: 250px;
+}
+
+footer section.foot-box1 p.foot-para {
+  font-weight: normal;
+  letter-spacing: 2.85px;
+}
+
+footer section.foot-box2:first-of-type {
+  margin: 0px 45px;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
+
+footer h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+footer section.foot-box2 ul li a {
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 3rem;
+}
+
+footer section.foot-box2 ul li a:hover {
+  color: #ff0f07;
+}
+
+@media only screen and (max-width: 800px) {
+  footer * {
+    font-size: 0.85rem;
+  }
+  footer div.foot-container {
+    display: inline-block;
+    padding: 0px;
+  }
+  footer section.foot-box1,
+  footer section.foot-box2 {
+    margin: 0px;
+    max-width: 100%;
+    padding: 15px 25px;
+  }
+}
+
+@media only screen and (max-width: 1360px) and (min-width: 800px) {
+  footer div.foot-container {
+    padding: 5rem 0rem;
+  }
+  footer section.foot-box2 {
+    margin: 0px;
+  }
+}
+/*# sourceMappingURL=foot.css.map */

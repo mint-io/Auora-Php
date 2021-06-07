@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Roboto,'sans-serif';
+  border: 0px solid;
+  outline: none;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none !important;
+  text-decoration: none !important;
+  font-family: sans-serif;
+  border: px solid red;
+}
+
+section {
+  border: px solid red;
+}
+
+/***CAUTION ON THIS MAIN***/
+main {
+  margin-top: 30rem;
+}
+
+p.copyright {
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    margin-top: 14rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  main {
+    margin-top: 21rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    margin-top: 14rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  main {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  p.copyright {
+    font-size: 0.85rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

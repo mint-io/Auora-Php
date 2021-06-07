@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Roboto,'sans-serif';
+  border: 0px solid;
+  outline: none;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 4em;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.75em;
+    padding: 2rem;
+  }
+}
+
+section {
+  border: px solid red;
+}
+
+p.best-selling-para {
+  text-align: center;
+  padding: 1em 0em 5em 0em;
+}
+
+div.best-seller-part-one-container-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.best-seller-part-one-container-wrap section.col-best-seller-part-one-1,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-one-2,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-one-3,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-one-4,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-two-1,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-two-2,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-two-3,
+div.best-seller-part-one-container-wrap section.col-best-seller-part-two-4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin: 0.5rem;
+  background-color: #e0e0e0;
+  border: px solid red;
+}
+
+section.col-best-seller-part-one-1 {
+  background-image: url("192202_97_41-removebg-preview.png");
+}
+
+section.col-best-seller-part-one-4 {
+  background-image: url("teen-tops.jpg");
+}
+
+section.col-best-seller-part-one-2 {
+  background-image: url("fj11_1_cloudzoom-removebg-preview.png");
+}
+
+section.col-best-seller-part-one-3 {
+  background-image: url("il_570xN.1190478905_2lhj-removebg-preview.png");
+}
+
+section.col-best-seller-part-two-1 {
+  background-image: url("apple_ipad-pro-spring21_hero_04202021_big.jpg.large_-removebg-preview.png");
+}
+
+section.col-best-seller-part-two-2 {
+  background-image: url("HB-UM43-Main-600x600-removebg-preview.png");
+}
+
+section.col-best-seller-part-two-3 {
+  background-image: url("/71umuN8XVeL-removebg-preview.png");
+}
+
+section.col-best-seller-part-two-4 {
+  background-image: url("A1271012_TD01_V4_600x-removebg-preview.png");
+}
+
+button.text {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  top: 50%;
+  opacity: 0;
+  color: white;
+  font-size: 1.25em;
+  padding: 1.7rem;
+  background-color: #335758;
+}
+
+@media only screen and (max-width: 800px) {
+  div.best-seller-part-one-container-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.col-best-seller-part-one-1,
+  section.col-best-seller-part-one-2,
+  section.col-best-seller-part-one-3,
+  section.col-best-seller-part-one-4,
+  section.col-best-seller-part-two-1,
+  section.col-best-seller-part-two-2,
+  section.col-best-seller-part-two-3,
+  section.col-best-seller-part-two-4 {
+    height: 80px;
+    width: 80px;
+    margin: 0.2rem;
+  }
+}
+
+button.text:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 320px) {
+  section.col-best-seller-part-one-1,
+  section.col-best-seller-part-one-2,
+  section.col-best-seller-part-one-3,
+  section.col-best-seller-part-one-4,
+  section.col-best-seller-part-two-1,
+  section.col-best-seller-part-two-2,
+  section.col-best-seller-part-two-3,
+  section.col-best-seller-part-two-4 {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=best-seller1.css.map */
